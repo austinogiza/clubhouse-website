@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.text-orange-400 {
+    --text-opacity: 1;
+    color: #ffaf52;
+
+}

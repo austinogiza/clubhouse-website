@@ -17,11 +17,11 @@ setLoad(true)
        <Section className='max-w-2xl w-full h-full flex flex-col mx-auto justify-center items-center '>
     
       {load && [1,2,3,4,5,6,7,8].map(data=>
-        <Bodytext className='flex cursor-pointer  max-w-2xl w-full  h-40 flex-col  items-start hover:shadow-lg rounded-md focus:shadow-lg transition text-left  pt-4 pr-10 pl-10    pb-4 mt-8'>
-          <p>June 24, 2021</p>
+        <Bodytext className='flex cursor-pointer  max-w-2xl w-full  h-40 flex-col  items-start justify-center hover:shadow-lg rounded-md focus:shadow-lg transition text-left  pt-4 pr-10 pl-10    pb-4 mt-8'>
+          <p className='text-xs'>June 24, 2021</p>
           <h3 className="text-xl  text-black font-semibold mt-2">Creator First: Brazil</h3>
-        <h1 className=' text-gray-700   mt-2 text-sm text-left font-light '>  Contact us for questions about the app</h1>
-        <p className='text-left mt-2'>Today, we are proud to continue on our international expansion with the announcement of Creator First Brazil!</p>
+    
+        <p className='text-left text-xs mt-2 text-gray-700'>Today, we are proud to continue on our international expansion with the announcement of Creator First Brazil!</p>
           </Bodytext>
       )}
         
