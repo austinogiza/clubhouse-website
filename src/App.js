@@ -6,12 +6,14 @@ import Layout from './container/Layout';
 import Contact from './pages/Contact';
 import Press from './pages/Press';
 import Blog from './pages/Blog';
+import ScrollRestore from './components/ScrollRestore'
 
 function App() {
   return (
     <>
 <Router>
 <Layout>
+<ScrollRestore/>
   <Switch>
 
     <Route exact={true} path='/' component={Home}/>
