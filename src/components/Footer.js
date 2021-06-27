@@ -6,7 +6,7 @@ const Footer = () => {
 
 
     return (
-      <Body className="w-full py-4 max-w-sm mx-auto text-center px-4 flex flex-col justify-center items-center h-10">
+      <Body className="w-full py-4 max-w-sm mx-auto text-center px-4 mb-4 flex flex-col justify-center items-center h-10">
    
 <Section className='container text0-center'>
         <Header className='flex flex-row flex-wrap text-center items-center justify-center'>

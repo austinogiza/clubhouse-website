@@ -4,7 +4,7 @@ import { clubColor } from '../styles/color'
 
 const Home = () => {
     return (
-      <Body className="w-full py-4 px-4 flex flex-col justify-center items-center h-screen  mb-12 2xl:h-96 lg:h-96 xl:h-96">
+      <Body className="w-full py-4 px-4 flex flex-col justify-center items-center h-screen  mb-5 2xl:mb-12 xl:mb-12 lg:mb-12 2xl:h-96 lg:h-96 xl:h-96">
 
        <Section className='max-w-md w-full h-full flex flex-col mx-auto justify-center items-center '>
        <Header className='flex flex-row justify-center items-center'><Hand className='w-10 h-10'><img src="https://res.cloudinary.com/austinogiza/image/upload/v1624761608/icon_wave.2872aeea710c_gxrtcw.png" alt="" /></Hand><h3 className=" font-semibold text-xl my-1 mx-1.5">Clubhouse</h3></Header>
