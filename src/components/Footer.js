@@ -10,8 +10,8 @@ const Footer = () => {
    
 <Section className='container text0-center'>
         <Header className='flex flex-row flex-wrap text-center items-center justify-center'>
-       <Bodytext className='items-start justify-start flex flex-row w-auto  h-auto text-blue-500 text-sm my-2 mx-1.5 text-center '>
-       <Platforms to='/' className=' w-1 h-1 mr-1 mb-1 rounded-full  text-orange-400 '>.</Platforms> Home</Bodytext>
+       <Bodytext to='/'  className='items-start justify-start flex flex-row w-auto  h-auto text-blue-500 text-sm my-2 mx-1.5 text-center '>
+       <Platforms className=' w-1 h-1 mr-1 mb-1 rounded-full  text-orange-400 '>.</Platforms> Home</Bodytext>
 
 <Bodytext className='items-start justify-start flex flex-row w-auto h-auto text-blue-500 text-sm my-2 mx-1.5  text-center' > <Platforms className=' w-1 h-1 mr-1 mb-1 rounded-full  text-orange-400 '>.</Platforms> Jobs</Bodytext>
 <Bodytext to='/blog' className='items-start justify-start flex flex-row w-auto h-auto text-blue-500 text-sm my-2 mx-1.5 text-center ' > <Platforms className=' w-1 h-1 mr-1 mb-1 rounded-full  text-orange-400 '>.</Platforms>Blog</Bodytext>
